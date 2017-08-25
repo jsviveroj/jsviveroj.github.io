@@ -10,7 +10,27 @@ Since I was a little child everything around computers and software was interest
 I discovered with my projects that developing software to help  people is motivating and needed so that’s my choice in a near future.
 
 About languages I’ve learned a lot, Java, Ruby, Python, Golang, C, C# , C++,  JavaScript  ……….
-Because the logic is the same is easy to learn new languages each time.
+Because  logic is the same, makes easy to learn new languages each time.
 
+## Projects
 
+### UNSimplexMO
+
+It's a language for linear programming, more specific for simplex algorithm but is capable of making it multi objective using Goicoechea solutions to find a solution, it was developed in ANTLR for JAVA.
+It has two manuals, one technical and one for user.
+
+You will find it here.
+
+### Student Well Rent
+
+It’s a mash up application developed for Purdue University , in a development tournament named Iron Hacks. This app will help you to find the cheapest, nearest, affordable place in Chicago to stay near the Illinois University.
+
+Was developed in JavaScript, HTML5, CSS and data was real from the Chicago Government. 
+
+You will find it here.
+
+### Soon more projects!!!
+
+# Contact 
+ Email: jsviveroj@unal.edu.co
 
