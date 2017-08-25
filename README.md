@@ -19,7 +19,7 @@ Because  logic is the same, makes easy to learn new languages each time.
 It's a language for linear programming, more specific for simplex algorithm but is capable of making it multi objective using Goicoechea solutions to find a solution, it was developed in ANTLR for JAVA.
 It has two manuals, one technical and one for user.
 
-You will find it here.
+You will find it [here.](https://github.com/jsviveroj/UNSimplexMO)
 
 ### Student Well Rent
 
@@ -27,7 +27,7 @@ It’s a mash up application developed for Purdue University , in a development 
 
 Was developed in JavaScript, HTML5, CSS and data was real from the Chicago Government. 
 
-You will find it here.
+You will find it [here.](https://github.com/goldironhack/2017-Purdue-UNAL-IronHack-jsviveroj)
 
 ### Soon more projects!!!
 
