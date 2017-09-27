@@ -50,6 +50,18 @@ Here is where anti-aliasing takes its job, trying to get this problem the least 
 
 Obviously a normal way to fix this type of problems could be  just thinking that pixels are not enough to represent a form or image so the solution would be to re assign the amount of pixels in terms of resolution till the problem is impossible to see.
 
-![Resolutions](/images/4kvs1080.jpg.png)
+![Resolutions](/images/4kvs1080.jpg)
 
-But if we don’t have this type of resources and we need to handle the problem, anti-aliasing is a good method to improve the picture.
+But if we don’t have this type of resources and we need to handle the problem, anti-aliasing is a good method to improve the picture. In high resolutions like 4k anti-aliasing is not as needed as in low resolutions.
+
+## Types of Anti-Aliasing
+
+### SSAA (Super Sampling)
+
+This type of antialiasing uses what is known as the brute force method to improve the quality of the images. In this way we will have a very high image quality, but, it needs a very high consumption of resources.
+
+This system works in a way that renders the image at a much higher resolution and, after applying a series of smoothing filters, this image is rendered back to the resolution of the monitor.
+
+So we obtain a superior quality, although processing a X times larger image (2 times, 4 times or 8 times, as we choose SSAA 2x, 4x or 8x), the resource consumption is exponentially higher.
+
+![Resolutions](/images/ssaa.png)
