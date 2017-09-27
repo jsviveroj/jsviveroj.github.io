@@ -56,7 +56,7 @@ But if we don’t have this type of resources and we need to handle the problem,
 
 ## Types of Anti-Aliasing
 
-### SSAA (Super Sampling)
+### SSAA (Super Sample)
 
 This type of antialiasing uses what is known as the brute force method to improve the quality of the images. In this way we will have a very high image quality, but, it needs a very high consumption of resources.
 
@@ -64,4 +64,22 @@ This system works in a way that renders the image at a much higher resolution an
 
 So we obtain a superior quality, although processing a X times larger image (2 times, 4 times or 8 times, as we choose SSAA 2x, 4x or 8x), the resource consumption is exponentially higher.
 
-![Resolutions](/images/ssaa.png)
+![SSAA](/images/ssaa.png)
+
+### MSAA (Multi Sample)
+
+This method uses the same technique  as SSAA but it focuses only in polygons borders so in terms of
+resources we save a enormous amount compared with SSAA, you would have a  good image quality (Not as good as SSAA ) but in terms of resources it can improve!.
+
+The samples that this algorithm takes are much more, numerically speaking
+
+
+![msaa](/images/msaa.png)
+
+
+### CSAA & EQAA (Coverage Sampling)
+
+This is an optimized method for MSAA the difference is in sampling, because here samples grow exponentially leading the  image to good anti aliasing quality with a lower  
+with a lower performance loss.
+
+![csaa](/images/csaa.png)
