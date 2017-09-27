@@ -74,7 +74,7 @@ resources we save a enormous amount compared with SSAA, you would have a  good i
 The samples that this algorithm takes are much more, numerically speaking
 
 
-![msaa](/images/msaa.png)
+![msaa](/images/msaa.jpg)
 
 
 ### CSAA & EQAA (Coverage Sampling)
@@ -83,3 +83,15 @@ This is an optimized method for MSAA the difference is in sampling, because here
 with a lower performance loss.
 
 ![csaa](/images/csaa.png)
+
+### FXAA (Fast Approximate)
+
+It ignores polygons and line edges, symply analyzes the pixels on the screen and once the image is rendered it sees pixels that create an artificial edge and smooths them.
+
+FXAA has two major advantages:
+
+* FXAA smooths edges in all pixels on the screen
+* It's fast. Very, very fast, the aamount of resources to consume is minimal
+* The FXAA method is so good, in fact, it makes all other forms of full-screen anti-aliasing pretty much obsolet, talking about in live rendering like games.
+
+![fxaa](/images/fxaa.jpg)
