@@ -25,29 +25,31 @@ You will find it [here.](https://github.com/jsviveroj/UNSimplexMO)
 
 It’s a mash up application developed for Purdue University , in a development tournament named Iron Hacks. This app will help you to find the cheapest, nearest, affordable place in Chicago to stay near the Illinois University.
 
-Was developed in JavaScript, HTML5, CSS and data was real from the Chicago Government. 
+Was developed in JavaScript, HTML5, CSS and data was real from the Chicago Government.
 
 You will find it [here.](https://github.com/goldironhack/2017-Purdue-UNAL-IronHack-jsviveroj)
 
 ### Soon more projects!!!
 
-# Contact 
+# Contact
  Email: jsviveroj@unal.edu.co
 
 # Rendering
 
 ## Anti-Aliasing
 In real world, as humans we can see a full detailed world because it is continuous, everything is formed by infinite points so it is possible to see curved lines with the same quality as seeing a straight line. But in a discrete world like a screen we are talking about lines and forms to be represented in pixels, something countable that has an end.
+
+
 So straight lines could be represented normally but what about a curved one?  The problem is born here, curved lines will always have this saw tooth effect.
+
+![Aliased](/images/aliased.png)
 
 Here is where anti-aliasing takes its job, trying to get this problem the least remarkable as possible, but what if we think in resolution?
 
-Obviously a normal way to fix this type of problems could be fixed just thinking that pixels are not enough to represent a form or image so the solution would be to re assign the amount of pixels in terms of resolution till the problem is impossible to see.
+![Anti-Aliased](/images/antiAliased.png)
+
+Obviously a normal way to fix this type of problems could be  just thinking that pixels are not enough to represent a form or image so the solution would be to re assign the amount of pixels in terms of resolution till the problem is impossible to see.
+
+![Resolutions](/images/4kvs1080.jpg.png)
 
 But if we don’t have this type of resources and we need to handle the problem, anti-aliasing is a good method to improve the picture.
-
-
-
-
- 
-
